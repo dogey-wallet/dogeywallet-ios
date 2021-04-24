@@ -96,7 +96,7 @@ struct C {
     
     static let reviewLink = "https://itunes.apple.com/app/loafwallet-litecoin-wallet/id1119332592?action=write-review"
     static var standardPort: Int {
-        return E.isTestnet ? 19335 : 9333
+        return E.isTestnet ? 44556 : 22556
     }
     
     static let troubleshootingQuestions = """
