@@ -77,14 +77,14 @@ struct PaymentRequest {
             request = NSMutableURLRequest(url: remoteRequest! as URL, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 5.0) //TODO - fix !
         }
 
-        request.setValue("application/litecoin-paymentrequest", forHTTPHeaderField: "Accept")
+        request.setValue("application/vnd.doge.payment.request", forHTTPHeaderField: "Accept")
 
         URLSession.shared.dataTask(with: request as URLRequest) { data, response, error in
             guard error == nil else { return completion(nil) }
             guard let data = data else { return completion(nil) }
             guard let response = response else { return completion(nil) }
 
-            if response.mimeType?.lowercased() == "application/litecoin-paymentrequest" {
+            if response.mimeType?.lowercased() == "application/vnd.doge.payment.request" {
                 completion(PaymentRequest(data: data))
             } else if response.mimeType?.lowercased() == "text/uri-list" {
                 

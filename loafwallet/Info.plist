@@ -12,36 +12,36 @@
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Litecoin Payment Request</string>
+			<string>Dogecoin Payment Request</string>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>litecoin.paymentrequest</string>
+				<string>doge.payment.request</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Litecoin Payment</string>
+			<string>Dogecoin Payment</string>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>litecoin.payment</string>
+				<string>doge.payment.payment</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Litecoin Payment ACK</string>
+			<string>Dogecoin Payment ACK</string>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>litecoin.paymentack</string>
+				<string>doge.payment.ack</string>
 			</array>
 		</dict>
 	</array>
@@ -63,10 +63,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>litecoin</string>
+			<string>dogecoin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>litecoin</string>
+				<string>dogecoin</string>
 			</array>
 		</dict>
 		<dict>
@@ -162,13 +162,13 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Litecoin Payment Request</string>
+			<string>Dogecoin Payment Request</string>
 			<key>UTTypeIdentifier</key>
-			<string>litecoin.paymentrequest</string>
+			<string>doge.payment.request</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
-				<string>application/litecoin-paymentrequest</string>
+				<string>application/vnd.doge.payment.request</string>
 			</dict>
 		</dict>
 		<dict>
@@ -177,13 +177,13 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Litecoin Payment</string>
+			<string>Dogecoin Payment</string>
 			<key>UTTypeIdentifier</key>
-			<string>litecoin.payment</string>
+			<string>doge.payment.payment</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
-				<string>application/litecoin-payment</string>
+				<string>application/vnd.doge.payment.payment</string>
 			</dict>
 		</dict>
 		<dict>
@@ -192,13 +192,13 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Litecoin Payment ACK</string>
+			<string>Dogecoin Payment ACK</string>
 			<key>UTTypeIdentifier</key>
-			<string>litecoin.paymentack</string>
+			<string>doge.payment.ack</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.mime-type</key>
-				<string>application/litecoin-paymentack</string>
+				<string>application/vnd.doge.payment.ack</string>
 			</dict>
 		</dict>
 	</array>
